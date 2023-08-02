@@ -1,0 +1,145 @@
+body {
+    background-color:rgb(244, 230, 227);
+}
+
+ul {
+    list-style-type: none;
+    /* background-color: rgb( 214, 178, 202); */
+    margin:2px;
+    padding:20px;
+    background-image: repeat;
+    text-decoration: none;
+}
+
+li {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display:inline;
+}
+
+#navigation {
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+    margin:30px;
+}
+
+div.navigation {
+    text-align: right;
+    /* background-color: rgb( 214, 178, 202); */
+}
+
+#navigation:link {
+    text-decoration: none; 
+    color:rgb(231, 149, 199);
+}
+
+#navigation:visited {
+    text-decoration: none;
+    color:rgb(231, 149, 199); 
+}
+
+#navigation:hover {
+    text-decoration: none;
+}
+
+#navigation:active {
+    text-decoration: none;
+}
+
+#heading {
+    text-align: center;
+    color:#442918;
+    font-size: 40px;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    padding: 10px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#title {
+    /* font-family: "brevia", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none; */
+    color:#442918;
+    font-size: 60px;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    padding: 20px;
+    margin: 40px;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+
+img {
+    width:350px;
+    height:350px;
+    object-fit: cover;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    /* padding-bottom:70px; */
+    /* margin: 40px; */
+    vertical-align: middle;
+}
+
+#title:link {
+    text-decoration: none; 
+    color:#442918;
+}
+
+#title:visited {
+    text-decoration: none;
+    color:#442918;
+}
+
+#title:hover {
+    text-decoration: underline;
+}
+
+#title:active {
+    text-decoration: none;
+}
+
+p {
+    padding:20px;
+    color: #442918;
+   text-align: left;
+   font-size: 15px;
+   font-family: "salis-mvb", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+}
+
+h3 {
+    font-family: "brevia", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 35px;;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* div.text{
+    flex: 50%;
+} */
+
+div.photo {
+    flex:50%;
+}
